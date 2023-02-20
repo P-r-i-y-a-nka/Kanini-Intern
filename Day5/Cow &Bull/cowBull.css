@@ -1,0 +1,30 @@
+.game_container h1{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+body{
+    font-family:serif;
+    background-image: url('D:/Website/image/cowbull.jpg');
+    background-size: 900px 780px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button{
+    padding: 5px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+button:hover{
+    color: yellow;
+    background-color: black;
+}
+#txtword{
+    padding: 5px;
+    background-color: azure;
+}
+#txtguess{
+    padding: 5px;
+    background-color: azure;
+}
