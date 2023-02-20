@@ -1,0 +1,248 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background-image: url(../image/solar4.jpeg);
+}
+div{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+}
+.sun {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #ffd700;
+  box-shadow: 0 0 50px 20px #ffd700;
+  z-index: 99;
+}
+.planet1{
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.5);
+  animation: anime1 10s linear infinite;
+}
+div::before,div::after{
+  position :absolute;
+  content: "";
+  background: #fff;
+  border-radius: 50%;
+}
+.mercury{
+  width: 149px;
+  height: 149px;
+}
+.mercury::before{
+  background: orangered;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  bottom: 20px;
+  left: 2px;
+}
+@keyframes anime1{
+  0%{
+    transform: translate(-50%,-50%) rotate(0);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(80deg);
+  }
+}
+.planet2{
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.5);
+  animation: anime2 10s linear infinite;
+}
+
+.venus{
+  width: 217px;
+  height: 217px;
+}
+.venus::before{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  bottom: 45px;
+  left: 2px;
+  background: brown;
+  position: absolute;
+}
+@keyframes anime2{
+  0%{
+    transform: translate(-50%,-50%) rotate(10deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(110deg);
+  }
+}
+.planet3{
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.5);
+  animation: anime3 10s linear infinite;
+}
+.earth{
+  width: 280px;
+  height: 280px;
+}
+.earth::before{
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  bottom: 68px;
+  left: 2px;
+  background: blue;
+}
+@keyframes anime3{
+  0%{
+    transform: translate(-50%,-50%) rotate(20deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(170deg);
+  }
+}
+.planet4{
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.5);
+  animation: anime4 10s linear infinite;
+}
+
+.mars{
+  width: 340px;
+  height: 340px;
+}
+.mars::before{
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  bottom: 96px;
+  left: 2px;
+  background: maroon;
+}
+@keyframes anime4{
+  0%{
+    transform: translate(-50%,-50%) rotate(30deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(210deg);
+  }
+}
+.planet5{
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.5);
+  animation: anime5 10s linear infinite;
+}
+
+.jupiter{
+  width: 403px;
+  height: 403px;
+}
+.jupiter::before{
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  bottom: 118px;
+  left: 2px;
+  background: peru;
+}
+@keyframes anime5{
+  0%{
+    transform: translate(-50%,-50%) rotate(40deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(260deg);
+  }
+}
+.planet6{
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.5);
+  animation: anime6 10s linear infinite;
+}
+
+.saturn{
+  width: 479px;
+  height: 479px;
+}
+.saturn::before{
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  bottom: 148px;
+  left: 2px;
+  background: yellow;
+}
+@keyframes anime6{
+  0%{
+    transform: translate(-50%,-50%) rotate(50deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(310deg);
+  }
+}
+.planet7{
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.5);
+  animation: anime7 10s linear infinite;
+}
+
+.uranus{
+  width: 548px;
+  height: 548px;  
+}
+.uranus::before{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  bottom: 176px;
+  background: aqua;
+  left: 2px;
+}
+@keyframes anime7{
+  0%{
+    transform: translate(-50%,-50%) rotate(60deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
+.planet8{
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.5);
+  animation: anime8 10s linear infinite;
+}
+.neptune{
+  width: 625px;
+  height: 625px;  
+}
+.neptune::before{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  bottom: 209px;
+  left: 2px;
+  background: cornflowerblue;
+  animation-name: ne;
+}
+@keyframes anime8{
+  0%{
+    transform: translate(-50%,-50%) rotate(70deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(400deg);
+  }
+}
+
+
