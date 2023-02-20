@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loan_application.css">
+    <title>Document</title>
+    <script>
+        function checkform(){
+            if(document.getElementById("inputEmail").value == 'sara@gmail.com' && 
+                    document.getElementById("inputPassword").value == 'Sara@123' ){
+                alert("Login Successful");
+                window.location.href = "basicLoanInfo.html";
+            }else{
+                alert("Access denied. Valid username and password is required.");
+            }
+        }   
+</script>
+</head>
+<body>
+    <nav>
+        <a href="basicLoanInfo.html">Basic Loan</a>
+        <a href="loanRequirements.html">Loan Requirements</a>
+        <a href="financialInfo.html">Finance</a>
+    </nav>
+    <div class="bg_img"></div>
+        <h2>Welcome to ABC Banks</h2>
+        <form id="login_form" name="myForm" onsubmit="return checkform()">
+            <!-- <label for="">Email</label><br> -->
+            <input type="email" id="inputEmail" name="email" placeholder="Email address"><br><br>
+            <!-- <label for="">Password</label><br> -->
+            <input type="password" id="inputPassword" name="password" placeholder="Password" minlength="8"><br>
+            <a href="#" style="margin-left: 53%;">Forgot password?</a><br><br>
+            <button type="submit" style="width: 30%;">Login</button><br><br>
+            <a href="../login/login.html">Don't have an accout? Register here</a>
+        </form>
+</body>
+</html>
