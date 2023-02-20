@@ -1,0 +1,135 @@
+.education_container table,th,td{
+    border: 1px solid black;
+    margin: 0 auto;
+    padding:20px;
+    font-size: 20px;
+}
+#hob{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+    margin-top: 10%;
+}
+.content_aboutMe h1{
+    margin-top: 10%;
+}
+.education_container h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+    margin-top: 10%;
+}
+.hobbies{
+    display: flex;
+}
+.hobbies h2{
+    font-size: 20px;
+}
+.hobbies img{
+    padding: 20px;
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.contact_container{
+    margin-top: 10%;
+}
+.contact_container h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
+* {box-sizing: border-box}
+.skills_container h1{
+    margin-top: 10%;
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+.skills_container p{
+    font-weight: bold;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html {
+    width: 90%; 
+    background-color: #23c7bf;
+}
+.css {
+    width: 80%; 
+    background-color: #90f055;
+}
+.python {
+    width: 65%; 
+    background-color: #db36f4;
+}
+.item_container{
+    padding-top: 150px;
+    min-width:100%;
+    height:90vh;
+    background-image: url('../image/leaf.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+} 
+nav{
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.item{
+    display: flex;
+}
+.item h1{
+    margin-top: 24px;
+    margin-left: 43%;
+}
+.item p{
+    margin-left: 28%;
+    padding: 20px;
+    margin-top: 110px;
+    font-weight: bolder;
+    font-size: 80px;
+
+}
+.content_image img{
+    padding:10x;
+    height: 100%;
+    width: auto;
+    margin-left: 42%;
+    margin-top: 10px;   
+}
+form{
+    padding: 30px;
+    background:linear-gradient(aquamarine,pink);
+    width: 20%;
+    border: 2px solid black;
+    margin-left: 40.5%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+form button{
+    background-color: rgb(233, 145, 201);
+    border: none;
+    padding: 4px;
+}
+form button:hover{
+    background-color: black;
+    color: yellow;
+}
